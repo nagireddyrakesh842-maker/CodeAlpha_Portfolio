@@ -1,0 +1,190 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="theme-color" content="#0b1020">
+  <meta name="description" content="Portfolio of Rakesh Nagireddy, Computer Science student interested in software development, AI and data analytics.">
+  <title>Rakesh Nagireddy | Developer Portfolio</title>
+  <link rel="stylesheet" href="style.css">
+  <script src="script.js" defer></script>
+</head>
+<body>
+  <header class="navbar">
+    <a class="brand" href="#home">RN<span>.</span></a>
+    <button class="menu-toggle" id="menuToggle" aria-label="Toggle navigation" aria-expanded="false">☰</button>
+    <nav id="navigation" aria-label="Main navigation">
+      <a href="#about">About</a>
+      <a href="#skills">Skills</a>
+      <a href="#projects">Projects</a>
+      <a href="#journey">Journey</a>
+      <a href="#contact" class="nav-contact">Contact ↗</a>
+    </nav>
+  </header>
+
+  <main>
+    <section class="hero section" id="home">
+      <div class="hero-copy">
+        <p class="eyebrow"><span class="status-dot"></span> CSE STUDENT · ASPIRING DEVELOPER</p>
+        <h1>Hi, I'm <span>Rakesh</span>.<br>I turn ideas into<br><span class="gradient-text">digital experiences.</span></h1>
+        <p class="hero-description">
+          I'm a Computer Science student exploring web development,
+          AI-powered solutions and data analytics. I enjoy learning
+          by building projects that solve real problems.
+        </p>
+        <div class="hero-actions">
+          <a class="button button-primary" href="#projects">Explore my work ↗</a>
+          <a class="button button-outline" href="#contact">Let's connect</a>
+        </div>
+        <div class="hero-facts">
+          <div><strong>CSE</strong><span>Undergraduate</span></div>
+          <div><strong>AI + Data</strong><span>Areas of interest</span></div>
+          <div><strong>Build & learn</strong><span>My approach</span></div>
+        </div>
+      </div>
+
+      <div class="hero-visual" aria-label="Developer themed illustration">
+        <div class="orbit orbit-one"></div>
+        <div class="orbit orbit-two"></div>
+        <div class="code-card">
+          <div class="code-top"><span></span><span></span><span></span><small>developer.js</small></div>
+          <pre><code><span class="code-purple">const</span> developer = {
+  name: <span class="code-green">"Rakesh"</span>,
+  studies: <span class="code-green">"CSE"</span>,
+  interests: [
+    <span class="code-green">"Web Development"</span>,
+    <span class="code-green">"AI & Data"</span>
+  ],
+  mindset: <span class="code-green">"Always learning"</span>
+};
+
+<span class="code-blue">build</span>(ideas);</code></pre>
+        </div>
+        <div class="floating-chip chip-top">{"</>"} Web</div>
+        <div class="floating-chip chip-bottom">✦ AI & Data</div>
+      </div>
+    </section>
+
+    <section class="section" id="about">
+      <div class="section-heading">
+        <p class="eyebrow">A LITTLE ABOUT ME</p>
+        <h2>Curiosity is where <span>it starts.</span></h2>
+      </div>
+      <div class="about-grid">
+        <article class="panel about-main">
+          <h3>Learning by building.</h3>
+          <p>
+            I'm pursuing a B.Tech in Computer Science and Engineering
+            at Anil Neerukonda Institute of Technology & Sciences.
+            I'm developing my skills through programming, practical
+            projects, online learning and collaborative events.
+          </p>
+          <p>
+            I'm especially interested in combining software development,
+            analytical thinking and AI to create useful digital products.
+            My goal is to keep improving, work with others and gain
+            practical experience through real projects.
+          </p>
+        </article>
+        <article class="panel focus-panel">
+          <p class="eyebrow">CURRENT FOCUS</p>
+          <div class="focus-item"><span>01</span><div><strong>Web development</strong><p>Building responsive websites and interfaces.</p></div></div>
+          <div class="focus-item"><span>02</span><div><strong>Data analytics</strong><p>Exploring data, patterns and insights.</p></div></div>
+          <div class="focus-item"><span>03</span><div><strong>AI-powered ideas</strong><p>Learning how intelligent tools can solve problems.</p></div></div>
+        </article>
+      </div>
+    </section>
+
+    <section class="section" id="skills">
+      <div class="section-heading">
+        <p class="eyebrow">MY TOOLKIT</p>
+        <h2>Skills I'm <span>developing.</span></h2>
+        <p class="section-description">A growing toolkit built through coursework, certifications and hands-on practice.</p>
+      </div>
+      <div class="skills-grid">
+        <article class="panel skill-card"><div class="skill-icon">⌘</div><h3>Programming</h3><p>C++, programming fundamentals and problem solving.</p><span class="tag">C++</span></article>
+        <article class="panel skill-card"><div class="skill-icon">⌘</div><h3>Web development</h3><p>Responsive interfaces and single-page website design.</p><span class="tag">HTML · CSS · JavaScript</span></article>
+        <article class="panel skill-card"><div class="skill-icon">◫</div><h3>Data analytics</h3><p>Exploratory analysis, data storytelling and analytical thinking.</p><span class="tag">EDA · Analytics</span></article>
+        <article class="panel skill-card"><div class="skill-icon">✳</div><h3>AI & cloud</h3><p>Learning AI-enabled workflows and cloud security fundamentals.</p><span class="tag">AI · Google Cloud</span></article>
+      </div>
+      <p class="note">Skill levels grow with practice. This portfolio focuses on technologies and areas you've studied or explored.</p>
+    </section>
+
+    <section class="section" id="projects">
+      <div class="section-heading">
+        <p class="eyebrow">SELECTED WORK</p>
+        <h2>Ideas becoming <span>projects.</span></h2>
+        <p class="section-description">A selection of projects from my learning journey.</p>
+      </div>
+      <div class="projects-grid">
+        <article class="project-card panel">
+          <div class="project-art art-book"><span>BB.</span><small>COMMUNITY · EXCHANGE</small></div>
+          <div class="project-content">
+            <div class="project-meta"><span class="tag">Featured project</span><span>01 / 03</span></div>
+            <h3>BookBridge</h3>
+            <p>A student book-exchange platform concept designed to help campus communities exchange used books.</p>
+            <div class="tag-list"><span>Web development</span><span>UX</span><span>AI concept</span></div>
+            <p class="project-note">Includes proposed book matching, QR-based exchange verification and community features.</p>
+          </div>
+        </article>
+        <article class="project-card panel">
+          <div class="project-art art-gallery"><span class="gallery-shape">▧</span><small>PHOTO COLLECTION</small></div>
+          <div class="project-content">
+            <div class="project-meta"><span class="tag">Frontend</span><span>02 / 03</span></div>
+            <h3>Image Gallery</h3>
+            <p>A responsive image gallery with category filters and an interactive image-viewing experience.</p>
+            <div class="tag-list"><span>HTML</span><span>CSS</span><span>JavaScript</span></div>
+            <p class="project-note">Built as part of my frontend development learning journey.</p>
+          </div>
+        </article>
+        <article class="project-card panel">
+          <div class="project-art art-calculator"><span>12 × 3 = 36</span><small>CALCULATOR UI</small></div>
+          <div class="project-content">
+            <div class="project-meta"><span class="tag">Frontend</span><span>03 / 03</span></div>
+            <h3>Interactive Calculator</h3>
+            <p>A browser-based calculator supporting arithmetic, keyboard input and error handling.</p>
+            <div class="tag-list"><span>HTML</span><span>CSS</span><span>JavaScript</span></div>
+            <p class="project-note">Built to practise JavaScript logic, events and user interface design.</p>
+          </div>
+        </article>
+      </div>
+      <p class="note">Add your actual GitHub and live-demo links to each project after checking the published repositories.</p>
+    </section>
+
+    <section class="section" id="journey">
+      <div class="section-heading">
+        <p class="eyebrow">MY JOURNEY</p>
+        <h2>Learning, one step <span>at a time.</span></h2>
+      </div>
+      <div class="timeline">
+        <article class="timeline-item"><span class="timeline-dot"></span><div class="timeline-date">2025 – PRESENT</div><h3>B.Tech, Computer Science & Engineering</h3><p>Anil Neerukonda Institute of Technology & Sciences, Visakhapatnam.</p></article>
+        <article class="timeline-item"><span class="timeline-dot"></span><div class="timeline-date">2026</div><h3>Certifications & job simulations</h3><p>Learning experiences including TCS Forage data analytics, HP LIFE data science and analytics, Google Cloud security fundamentals, and Infosys Springboard C++.</p></article>
+        <article class="timeline-item"><span class="timeline-dot"></span><div class="timeline-date">2026</div><h3>Hackathons & innovation events</h3><p>Participated in student innovation and hackathon events, including Launch Pad Hack Fest, a 24-hour hackathon, and Hacktriad 2.0.</p></article>
+      </div>
+      <div class="education-note panel">
+        <div><span class="eyebrow">EDUCATION</span><h3>Computer Science & Engineering</h3><p>ANITS · Visakhapatnam</p></div>
+        <div class="education-score"><strong>95.5%</strong><span>Intermediate MPC, as listed on my resume</span></div>
+      </div>
+    </section>
+
+    <section class="section contact-section" id="contact">
+      <div class="contact-card">
+        <p class="eyebrow">LET'S CONNECT</p>
+        <h2>Good ideas start<br>with a <span>conversation.</span></h2>
+        <p>I'm interested in learning opportunities, collaborative projects and connecting with people who build useful things.</p>
+        <div class="hero-actions">
+          <a class="button button-primary" href="mailto:nagireddyrakesh842@gmail.com">Email me ↗</a>
+          <a class="button button-outline" href="https://www.linkedin.com/" target="_blank" rel="noopener noreferrer">Find me on LinkedIn ↗</a>
+        </div>
+        <p class="contact-location">Visakhapatnam, Andhra Pradesh, India</p>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <a class="brand" href="#home">RN<span>.</span></a>
+    <p>Designed and built as part of my learning journey.</p>
+    <a href="#home">Back to top ↑</a>
+  </footer>
+</body>
+</html>
