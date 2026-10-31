@@ -58,8 +58,7 @@ The "resume.pdf" file is optional. Include it only if you have added your actual
 
 1. Clone the repository:
    
-   git clone YOUR_REPOSITORY_URL
-
+   git clone (https://github.com/nagireddyrakesh842-maker/CodeAlpha_Portfolio.git)
 2. Open the project folder in VS Code.
 
 3. Open "index.html".
